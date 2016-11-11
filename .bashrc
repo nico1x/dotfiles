@@ -43,4 +43,4 @@ fi
 
 alias fig="docker-compose"
 
-cd ~/Dev/infoshift
+alias bacon="cd ~/Dev/infoshift/ ; tmux new -s bacon"
