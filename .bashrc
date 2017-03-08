@@ -41,6 +41,16 @@ else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 
+source ~/.git-completion.bash
+
+alias python="python2"
+
+alias virtaulenv="~/.local/bin/virtualenv"
+
+alias tmux="tmux -2"
+
 alias fig="docker-compose"
 
 alias bacon="cd ~/Dev/infoshift/ ; tmux new -s bacon"
+
+alias attach="tmux attach -t"
