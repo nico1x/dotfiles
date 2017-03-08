@@ -11,6 +11,9 @@ docker-compose
 
 vim
 -vimplug
+-flake8-vim
+-goldenview.vim
+-nerdtree
 
 sublime-text-dev
 -package-control
