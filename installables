@@ -19,3 +19,6 @@ sublime-text-dev
 -package-control
 -flatland theme
 -golden ratio
+
+# /etc/lightdm/lightdm.conf
+greeter-setup-script=/usr/bin/setxkbmap -option ctrl:nocaps
